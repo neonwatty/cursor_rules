@@ -1,0 +1,20 @@
+---
+description: Rails testing best practices and rules
+globs: 
+alwaysApply: false
+---
+# Rails Testing Best Practices and Rules
+
+- Use **Minitest** and **Capybara** for all Ruby/Rails testing. Do not use RSpec.
+- Focus on writing **unit, model, controller, and integration tests**. System tests are not required.
+- Write tests **frequently**: add small, focused tests whenever new code is added or existing code is changed.
+- Keep tests clear, maintainable, and DRY.
+- Use fixtures for test data (not factories).
+
+## Vite/JavaScript Testing
+
+- For Vite-managed JavaScript, write **npm-based tests** (e.g., using Vitest or Jest).
+- Apply the same principle: write small, focused tests frequently as new JS code is added or changed.
+- Keep JavaScript tests clear, maintainable, and colocated with the code they test when possible.
+
+These rules help ensure your Rails and JavaScript codebases remain reliable, maintainable, and easy to refactor.
