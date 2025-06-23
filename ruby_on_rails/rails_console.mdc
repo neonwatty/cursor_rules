@@ -1,12 +1,9 @@
 ---
-description: 
+description: Rails Console Interaction Rules
 globs: 
 alwaysApply: false
 ---
----
-description: Rails Console Interaction Rules
-globs: 
----
+
 # Rails Console Interaction Rules
 
 ## 1. Console Testing Approach
